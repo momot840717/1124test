@@ -1,0 +1,7 @@
+<!doctype html>
+<title>Stock News</title>
+<ul>
+    {% for news in news_list %}
+      <li><a href="{{ news.link }}">News Link Click</a>  {{news.title}}</li>
+    {% endfor %}
+    </ul>
